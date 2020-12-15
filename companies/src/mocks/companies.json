@@ -1,0 +1,30 @@
+[{
+  "name": "Catapult Studio",
+  "buildings": ["10-147", "10-258", "10-369"],
+  "email": "catapultstudio@mail.com",
+  "adress": "Cortada 142"
+},
+{
+  "name": "Builder Studio",
+  "buildings": ["20-147", "20-258", "20-369"],
+  "email": "builderstudio@mail.com",
+  "adress": "Villa 456"
+},
+{
+  "name": "Buildings Den",
+  "buildings": ["30-147", "30-258", "30-369"],
+  "email": "denbuildings@mail.com",
+  "adress": "Calle 564"
+},
+{
+  "name": "Uplift Studio",
+  "buildings": ["40-147", "40-258", "40-369"],
+  "email": "uplift@mail.com",
+  "adress": "Boulevard 415"
+},
+{
+  "name": "Solar Studio",
+  "buildings": ["50-147", "50-258", "50-369"],
+  "email": "solar@mail.com",
+  "adress": "Avenida 756"
+}]

@@ -1,0 +1,71 @@
+/*DESKTOP*/
+*{
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  height: 5vh;
+  width: 90vw;
+  box-shadow: 2px 0px 10px grey;
+}
+
+img, div, form, button {
+  height: 100%;
+}
+
+.disp-flex {
+  display: flex;
+  align-items: center;
+}
+.just-center {
+  justify-content: center;
+}
+
+.just-between {
+  justify-content: space-between;
+}
+
+/*SEARCH DIV*/
+.shadow-box {
+  height: 50%;
+  border: 2px solid lightblue;
+  border-radius: 5em;
+  margin-left: 20px;
+}
+
+/*SEARCH BUTTON*/
+#search > button {
+  height: 80%;
+  border: none;
+  background: none;
+}
+
+#search > input {
+  border: none;
+  width: 80%;
+  border-radius: 5em;
+}
+
+/*PROFILE*/
+.cols-3 {
+  width: 20%;
+}
+
+/*USER IMG*/
+#user {
+  height: 50%;
+  width: 50%;
+  font-size: 2vh;
+  font-family: 'Poiret One', cursive;
+}
+
+/*SIGN OUT IMG*/
+#sign-out {
+  height: 50%;
+  width: 50%;
+  font-size: 2vh;
+  font-family: 'Poiret One', cursive;
+  align-items: center;
+  text-align: center;
+}

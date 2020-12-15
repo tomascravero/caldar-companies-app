@@ -1,0 +1,53 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.container-aside {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+  width: 10%;
+  background-color: #40CCE5;
+}
+
+/* LOGO TITLE */
+#logo {
+  height: 5%;
+  font-size: 1vw;
+  color: #ffffff;
+  text-shadow: black 5px 5px  10px;
+  text-align: center;
+}
+
+#categories {
+  height: 50%;
+  text-transform: capitalize;
+}
+
+#list-categories {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100%;
+  font-size: 1vw;
+  font-family: 'Poiret One', cursive;
+  text-align: center;
+  list-style: none;
+}
+
+#date {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 10%;
+  font-size: 1vw;
+  font-family: 'Poiret One', cursive;
+  color: #ffffff;
+}
