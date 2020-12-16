@@ -1,14 +1,19 @@
-import Header from '../header/header';
-import Companies from '../companies/companies';
-import './main.css';
+import Header from "../header/header";
+import CompaniesSect from "../companies-section/companiesSect";
+import NewCompany from "../new-company/newCompany";
+import "./main.css";
+import { Component } from "react";
 
-const Main = () => {
-  return (
-    <div className="main">
-      <Header />
-      <Companies />
-    </div>
-  );
-};
+export class Main extends Component {
+  render() {
+    return (
+      <div className="main">
+        <Header />
+        <CompaniesSect />
+        <NewCompany />
+      </div>
+    );
+  };
+}
 
 export default Main;

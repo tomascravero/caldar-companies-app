@@ -1,0 +1,25 @@
+.list-item th {
+  font-family: 'Poiret One', cursive;
+  color: black;
+  border-bottom: 1px solid grey;
+  font-size: 1vw;
+}
+
+button {
+  border: none;
+  background: none;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  align-self: center;
+  height: 100%;
+  width: 100%;
+  border: none;
+}
+
+.btn i {
+  font-size: 1.5vw;
+  
+}
