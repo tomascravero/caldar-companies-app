@@ -1,0 +1,38 @@
+.list-section-new {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid 174157;
+  box-shadow: 2px 2px 5px grey;
+  width: 50%;
+}
+
+.title-component {
+  text-align: center;
+  border-bottom: 1px solid black;
+  color: #174157;
+  font-family: 'Rubik', sans-serif;
+}
+
+.forms-display {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.forms-display input {
+  border-radius: 20px;
+  text-align: center;
+  width: 50%;
+  height: 20px;
+}
+
+.forms-display button {
+  width: 10%;
+  height: 20px;
+  border: 1px solid black;
+  background-color: #174157;
+  color: white;
+  border-radius: 10px;
+}

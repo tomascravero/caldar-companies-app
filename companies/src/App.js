@@ -1,8 +1,7 @@
 import React from "react";
 import "./App.css";
-import Aside from './components/aside-nav/aside';
-
-import Main from './components/main/main';
+import Aside from './components/aside-nav/aside.jsx';
+import Main from './components/main/main.jsx';
 
 class App extends React.Component {
 
